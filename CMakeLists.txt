@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   controller_manager
   hardware_interface
   joint_limits_interface
+  mirte_msgs
   roscpp
   rosparam_shortcuts
   sensor_msgs
@@ -42,6 +43,7 @@ catkin_package(
     rosparam_shortcuts
     sensor_msgs
     std_msgs
+    mirte_msgs
     trajectory_msgs
     transmission_interface
     urdf
